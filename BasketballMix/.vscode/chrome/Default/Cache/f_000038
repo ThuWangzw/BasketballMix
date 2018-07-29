@@ -1,0 +1,963 @@
+window._CCSettings = {
+    designWidth: 960,
+    designHeight: 640,
+    groupList: [
+        "default"
+    ],
+    collisionMatrix: [
+        [
+            true
+        ]
+    ],
+    platform: "web-desktop",
+    scripts: [
+        {
+            deps: {},
+            file: "preview-scripts/assets/basketball.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/drawline.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/example/simplify.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/hit.js"
+        },
+        {
+            deps: {
+                "./R.path": 5,
+                "./component/R.transform": 7,
+                "./component/R.style": 6,
+                "./utils/R.utils": 18,
+                "./component/optional/R.svg": 11
+            },
+            file: "preview-scripts/assets/raphael/R.group.js"
+        },
+        {
+            deps: {
+                "./component/R.transform": 7,
+                "./component/R.style": 6,
+                "./utils/R.utils": 18,
+                "./component/optional/R.smooth": 10,
+                "./component/optional/R.simplify": 9,
+                "./component/optional/R.animate": 8
+            },
+            file: "preview-scripts/assets/raphael/R.path.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/raphael/component/R.style.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/raphael/component/R.transform.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/raphael/component/optional/R.animate.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/raphael/component/optional/R.simplify.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/raphael/component/optional/R.smooth.js"
+        },
+        {
+            deps: {
+                "domhandler/lib/node": 90,
+                "domhandler/lib/element": 89,
+                domhandler: 88,
+                cheerio: 24
+            },
+            file: "preview-scripts/assets/raphael/component/optional/R.svg.js"
+        },
+        {
+            deps: {
+                "./utils/R.utils": 18,
+                "./R.group": 4,
+                "./R.path": 5
+            },
+            file: "preview-scripts/assets/raphael/raphael.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/raphael/utils/R.curve.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/raphael/utils/R.dash.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/raphael/utils/R.find.js"
+        },
+        {
+            deps: {
+                "./R.curve": 13,
+                "./R.find": 15
+            },
+            file: "preview-scripts/assets/raphael/utils/R.length.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/raphael/utils/R.tesselateBezier.js"
+        },
+        {
+            deps: {
+                "./R.tesselateBezier": 17,
+                "R.curve": 13,
+                "R.dash": 14
+            },
+            file: "preview-scripts/assets/raphael/utils/R.utils.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/utils/background-color.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/base64-js/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/browser-resolve/empty.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "base64-js": 20,
+                ieee754: 93,
+                isarray: 23
+            },
+            file: "preview-scripts/__node_modules/buffer/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/buffer/node_modules/isarray/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./package": 86,
+                "./lib/cheerio": 30
+            },
+            file: "preview-scripts/__node_modules/cheerio/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "../utils": 33,
+                "../static": 32,
+                lodash: 85
+            },
+            file: "preview-scripts/__node_modules/cheerio/lib/api/attributes.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "../utils": 33,
+                lodash: 85
+            },
+            file: "preview-scripts/__node_modules/cheerio/lib/api/css.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                lodash: 85
+            },
+            file: "preview-scripts/__node_modules/cheerio/lib/api/forms.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "../static": 32,
+                "../utils": 33,
+                "../parse": 31,
+                lodash: 85
+            },
+            file: "preview-scripts/__node_modules/cheerio/lib/api/manipulation.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "../utils": 33,
+                htmlparser2: 71,
+                "css-select": 34,
+                lodash: 85
+            },
+            file: "preview-scripts/__node_modules/cheerio/lib/api/traversing.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./api/attributes": 25,
+                lodash: 85,
+                "./api/css": 26,
+                "./api/manipulation": 28,
+                "./api/forms": 27,
+                "./api/traversing": 29,
+                "./utils": 33,
+                "./static": 32,
+                "./parse": 31
+            },
+            file: "preview-scripts/__node_modules/cheerio/lib/cheerio.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "G:/CocosCreator/resources/app.asar/node_modules/is-buffer/index.js": 95,
+                htmlparser2: 71
+            },
+            file: "preview-scripts/__node_modules/cheerio/lib/parse.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./parse": 31,
+                "./cheerio": 30,
+                "dom-serializer": 54,
+                lodash: 85,
+                "css-select": 34
+            },
+            file: "preview-scripts/__node_modules/cheerio/lib/static.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./parse": 31,
+                "dom-serializer": 54
+            },
+            file: "preview-scripts/__node_modules/cheerio/lib/utils.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                boolbase: 41,
+                "./lib/compile.js": 36,
+                "./lib/pseudos.js": 39,
+                domutils: 43
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                boolbase: 41,
+                domutils: 43
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/lib/attributes.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./pseudos.js": 39,
+                "./procedure.json": 38,
+                "./sort.js": 40,
+                boolbase: 41,
+                domutils: 43,
+                "css-what": 42,
+                "./general.js": 37
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/lib/compile.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./pseudos.js": 39,
+                "./attributes.js": 35,
+                domutils: 43
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/lib/general.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/lib/procedure.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                boolbase: 41,
+                domutils: 43,
+                "./attributes.js": 35,
+                "nth-check": 52
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/lib/pseudos.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./procedure.json": 38
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/lib/sort.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/node_modules/boolbase/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/node_modules/css-what/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./lib/traversal": 49,
+                "./lib/manipulation": 46,
+                "./lib/helpers": 44,
+                "./lib/legacy": 45,
+                "./lib/querying": 47,
+                "./lib/stringify": 48
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/node_modules/domutils/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/node_modules/domutils/lib/helpers.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                domelementtype: 50
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/node_modules/domutils/lib/legacy.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/node_modules/domutils/lib/manipulation.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                domelementtype: 50
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/node_modules/domutils/lib/querying.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                domelementtype: 50,
+                "dom-serializer": 54
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/node_modules/domutils/lib/stringify.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/node_modules/domutils/lib/traversal.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/node_modules/domutils/node_modules/domelementtype/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                boolbase: 41
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/node_modules/nth-check/compile.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./parse.js": 53,
+                "./compile.js": 51
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/node_modules/nth-check/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/css-select/node_modules/nth-check/parse.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                domelementtype: 55,
+                entities: 56
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/dom-serializer/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/dom-serializer/node_modules/domelementtype/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./lib/encode.js": 59,
+                "./lib/decode.js": 57
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/entities/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "../maps/xml.json": 63,
+                "../maps/entities.json": 61,
+                "../maps/legacy.json": 62,
+                "./decode_codepoint.js": 58
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/entities/lib/decode.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "../maps/decode.json": 60
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/entities/lib/decode_codepoint.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "../maps/xml.json": 63,
+                "../maps/entities.json": 61
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/entities/lib/encode.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/entities/maps/decode.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/entities/maps/entities.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/entities/maps/legacy.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/entities/maps/xml.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./": 71
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/lib/CollectingHandler.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                util: 117,
+                "./index.js": 71
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/lib/FeedHandler.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./Tokenizer.js": 69,
+                util: 117,
+                events: 92
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/lib/Parser.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./": 71
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/lib/ProxyHandler.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                util: 117,
+                "./WritableStream.js": 70,
+                "../": 71
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/lib/Stream.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "entities/maps/entities.json": 82,
+                "entities/maps/xml.json": 84,
+                "entities/maps/legacy.json": 83,
+                "entities/lib/decode_codepoint.js": 80
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/lib/Tokenizer.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./Parser.js": 66,
+                "readable-stream": 21,
+                util: 117,
+                stream: 114
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/lib/WritableStream.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./FeedHandler.js": 65,
+                "./ProxyHandler.js": 67,
+                "./Parser.js": 66,
+                "./CollectingHandler.js": 64,
+                "./Stream.js": 68,
+                domelementtype: 72,
+                domhandler: 88,
+                "./WritableStream.js": 70,
+                "./Tokenizer.js": 69,
+                domutils: 73
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/lib/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/node_modules/domelementtype/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./lib/traversal": 79,
+                "./lib/manipulation": 76,
+                "./lib/helpers": 74,
+                "./lib/legacy": 75,
+                "./lib/querying": 77,
+                "./lib/stringify": 78
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/lib/helpers.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                domelementtype: 72
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/lib/legacy.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/lib/manipulation.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                domelementtype: 72
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/lib/querying.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                domelementtype: 72,
+                "dom-serializer": 54
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/lib/stringify.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/node_modules/domutils/lib/traversal.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "../maps/decode.json": 81
+            },
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/node_modules/entities/lib/decode_codepoint.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/node_modules/entities/maps/decode.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/node_modules/entities/maps/entities.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/node_modules/entities/maps/legacy.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/htmlparser2/node_modules/entities/maps/xml.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/node_modules/lodash/lodash.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/cheerio/package.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "../../is-buffer/index.js": 95
+            },
+            file: "preview-scripts/__node_modules/core-util-is/lib/util.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./lib/node": 90,
+                "./lib/element": 89,
+                domelementtype: 91
+            },
+            file: "preview-scripts/__node_modules/domhandler/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./node": 90
+            },
+            file: "preview-scripts/__node_modules/domhandler/lib/element.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/domhandler/lib/node.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/domhandler/node_modules/domelementtype/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/events/events.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/ieee754/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/inherits/inherits_browser.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/is-buffer/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                _process: 97
+            },
+            file: "preview-scripts/__node_modules/process-nextick-args/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/process/browser.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./lib/_stream_duplex.js": 99
+            },
+            file: "preview-scripts/__node_modules/readable-stream/duplex-browser.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./_stream_readable": 101,
+                "./_stream_writable": 103,
+                "process-nextick-args": 96,
+                "core-util-is": 87,
+                inherits: 94
+            },
+            file: "preview-scripts/__node_modules/readable-stream/lib/_stream_duplex.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./_stream_transform": 102,
+                "core-util-is": 87,
+                inherits: 94
+            },
+            file: "preview-scripts/__node_modules/readable-stream/lib/_stream_passthrough.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                events: 92,
+                util: 21,
+                "./_stream_duplex": 99,
+                _process: 97,
+                inherits: 94,
+                isarray: 107,
+                "./internal/streams/stream": 106,
+                "process-nextick-args": 96,
+                "core-util-is": 87,
+                "./internal/streams/BufferList": 104,
+                "./internal/streams/destroy": 105,
+                "string_decoder/": 108,
+                "safe-buffer": 113
+            },
+            file: "preview-scripts/__node_modules/readable-stream/lib/_stream_readable.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./_stream_duplex": 99,
+                inherits: 94,
+                "core-util-is": 87
+            },
+            file: "preview-scripts/__node_modules/readable-stream/lib/_stream_transform.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./internal/streams/stream": 106,
+                "./internal/streams/destroy": 105,
+                "./_stream_duplex": 99,
+                _process: 97,
+                "process-nextick-args": 96,
+                "core-util-is": 87,
+                inherits: 94,
+                "safe-buffer": 113,
+                "util-deprecate": 115
+            },
+            file: "preview-scripts/__node_modules/readable-stream/lib/_stream_writable.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                util: 21,
+                "safe-buffer": 113
+            },
+            file: "preview-scripts/__node_modules/readable-stream/lib/internal/streams/BufferList.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "process-nextick-args": 96
+            },
+            file: "preview-scripts/__node_modules/readable-stream/lib/internal/streams/destroy.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                events: 92
+            },
+            file: "preview-scripts/__node_modules/readable-stream/lib/internal/streams/stream-browser.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/readable-stream/node_modules/isarray/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "safe-buffer": 113
+            },
+            file: "preview-scripts/__node_modules/readable-stream/node_modules/string_decoder/lib/string_decoder.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./readable": 110
+            },
+            file: "preview-scripts/__node_modules/readable-stream/passthrough.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./lib/_stream_transform.js": 102,
+                "./lib/_stream_passthrough.js": 100,
+                "./lib/_stream_duplex.js": 99,
+                "./lib/_stream_writable.js": 103,
+                "./lib/_stream_readable.js": 101
+            },
+            file: "preview-scripts/__node_modules/readable-stream/readable-browser.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./readable": 110
+            },
+            file: "preview-scripts/__node_modules/readable-stream/transform.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./lib/_stream_writable.js": 103
+            },
+            file: "preview-scripts/__node_modules/readable-stream/writable-browser.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                buffer: 22
+            },
+            file: "preview-scripts/__node_modules/safe-buffer/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                events: 92,
+                inherits: 94,
+                "readable-stream/writable.js": 112,
+                "readable-stream/duplex.js": 98,
+                "readable-stream/transform.js": 111,
+                "readable-stream/passthrough.js": 109,
+                "readable-stream/readable.js": 110
+            },
+            file: "preview-scripts/__node_modules/stream-browserify/index.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/util-deprecate/browser.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {},
+            file: "preview-scripts/__node_modules/util/support/isBufferBrowser.js"
+        },
+        {
+            isNodeModule: true,
+            deps: {
+                "./support/isBuffer": 116,
+                inherits: 94,
+                _process: 97
+            },
+            file: "preview-scripts/__node_modules/util/util.js"
+        }
+    ],
+    rawAssets: {
+        assets: {
+            "1b869909-9dc2-4e9a-8292-b4943e37898a": [
+                "textures/basketball.png",
+                "cc.Texture2D"
+            ]
+        },
+        internal: {
+            "71561142-4c83-4933-afca-cb7a17f67053": [
+                "image/default_btn_disabled.png",
+                "cc.Texture2D"
+            ],
+            "e851e89b-faa2-4484-bea6-5c01dd9f06e2": [
+                "image/default_btn_normal.png",
+                "cc.Texture2D"
+            ],
+            "b43ff3c2-02bb-4874-81f7-f2dea6970f18": [
+                "image/default_btn_pressed.png",
+                "cc.Texture2D"
+            ],
+            "d81ec8ad-247c-4e62-aa3c-d35c4193c7af": [
+                "image/default_panel.png",
+                "cc.Texture2D"
+            ],
+            "cfef78f1-c8df-49b7-8ed0-4c953ace2621": [
+                "image/default_progressbar.png",
+                "cc.Texture2D"
+            ],
+            "99170b0b-d210-46f1-b213-7d9e3f23098a": [
+                "image/default_progressbar_bg.png",
+                "cc.Texture2D"
+            ],
+            "567dcd80-8bf4-4535-8a5a-313f1caf078a": [
+                "image/default_radio_button_off.png",
+                "cc.Texture2D"
+            ],
+            "9d60001f-b5f4-4726-a629-2659e3ded0b8": [
+                "image/default_radio_button_on.png",
+                "cc.Texture2D"
+            ],
+            "0291c134-b3da-4098-b7b5-e397edbe947f": [
+                "image/default_scrollbar.png",
+                "cc.Texture2D"
+            ],
+            "4bab67cb-18e6-4099-b840-355f0473f890": [
+                "image/default_scrollbar_bg.png",
+                "cc.Texture2D"
+            ],
+            "d6d3ca85-4681-47c1-b5dd-d036a9d39ea2": [
+                "image/default_scrollbar_vertical.png",
+                "cc.Texture2D"
+            ],
+            "617323dd-11f4-4dd3-8eec-0caf6b3b45b9": [
+                "image/default_scrollbar_vertical_bg.png",
+                "cc.Texture2D"
+            ],
+            "6e056173-d285-473c-b206-40a7fff5386e": [
+                "image/default_sprite.png",
+                "cc.Texture2D"
+            ],
+            "0275e94c-56a7-410f-bd1a-fc7483f7d14a": [
+                "image/default_sprite_splash.png",
+                "cc.Texture2D"
+            ],
+            "73a0903d-d80e-4e3c-aa67-f999543c08f5": [
+                "image/default_toggle_checkmark.png",
+                "cc.Texture2D"
+            ],
+            "c25b9d50-c8fc-4d27-beeb-6e7c1f2e5c0f": [
+                "image/default_toggle_disabled.png",
+                "cc.Texture2D"
+            ],
+            "d29077ba-1627-4a72-9579-7b56a235340c": [
+                "image/default_toggle_normal.png",
+                "cc.Texture2D"
+            ],
+            "b181c1e4-0a72-4a91-bfb0-ae6f36ca60bd": [
+                "image/default_toggle_pressed.png",
+                "cc.Texture2D"
+            ],
+            "2be36297-9abb-4fee-8049-9ed5e271da8a": [
+                "misc/default_video.mp4",
+                "cc.RawAsset"
+            ],
+            "b8223619-7e38-47c4-841f-9160c232495a": [
+                "obsolete/atom.plist",
+                "cc.ParticleAsset"
+            ],
+            "b2687ac4-099e-403c-a192-ff477686f4f5": [
+                "particle/atom.plist",
+                "cc.ParticleAsset"
+            ]
+        }
+    },
+    launchScene: "db://assets/example/simplify.fire",
+    scenes: [
+        {
+            url: "db://assets/example/simplify.fire",
+            uuid: "16588bb6-b75b-4826-8307-775822c5b63d"
+        }
+    ],
+    debug: true
+};
